@@ -11,6 +11,12 @@ body {
 }
 
 
+.img-logo {
+
+  width: 120px;
+
+}
+
 /* Animaciones */
 .animated {
   -webkit-animation-duration: 1s;
