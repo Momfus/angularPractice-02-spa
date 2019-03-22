@@ -4,6 +4,7 @@
 <div class="card-columns">
 
   <app-heroe-tarjeta
+          (heroeSeleccionado)="verHeroe( $event )"
           [heroe]="her"
           [index]="i"
           *ngFor="let her of heroes; let i = index"
